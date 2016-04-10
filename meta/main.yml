@@ -1,0 +1,16 @@
+---
+dependencies:
+  - role: telusdigital.node
+galaxy_info:
+  author: "Steven Harradine"
+  company: "TELUS digital"
+  description: "Checks to see if you your SSL certificates will expire soon"
+  license: ISC
+  platforms:
+    - name: Ubuntu
+      versions:
+      - trusty
+  categories:
+    - web
+    - cloud
+    - security

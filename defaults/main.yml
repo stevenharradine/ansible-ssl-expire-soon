@@ -1,0 +1,7 @@
+---
+ssl_expire_soon_user: www-data
+ssl_expire_soon_directory: /data/www/
+ssl_expire_soon_install_name: ssl-expire-soon
+ssl_expire_soon_path: "{{ ssl_expire_soon_directory }}{{ ssl_expire_soon_install_name }}"
+ssl_expire_soon_domains:
+  - google.com
