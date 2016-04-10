@@ -1,6 +1,6 @@
 ---
 dependencies:
-  - role: telusdigital.node
+  - role: telusdigital.nodejs
 galaxy_info:
   author: "Steven Harradine"
   company: "TELUS digital"
