@@ -17,4 +17,4 @@
     name: "start ssl expire soon server"
     user: "{{ ssl_expire_soon_user }}"
     special_time: daily
-    job: "cd {{ ssl_expire_soon_path }} && bash ssl-expire-soon.sh 30 'echo Will expire soon:' | grep 'expire soon:' > /tmp/ssl-expire-soon.log"
+    job: "cd {{ ssl_expire_soon_path }} && bash ssl-expire-soon.sh 30 'echo Will expire soon:' {{ ssl_expire_soon_slack_token | mandatory }} | grep 'expire soon:' > /tmp/ssl-expire-soon.log"
